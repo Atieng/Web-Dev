@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Meta information of teh website -->
+
 <head>
+    <!-- Title element of the webpage -->
     <title>
-        Crop Detection Innovation
+        <h1>WonderLust Travel Agency</h1>
     </title>
 </head>
 
-<body> 
-    <img src ="images/banner.jpg" alt="Banner" height = "300px"> 
-    <h1>About This Tech Comapany</h1>
+<body>
+    <img src="images/banner.jpg" alt="Banner" height="300px">
+    <h1>Wondelust Travel Agency</h1>
     <p>The tech industry encompasses a wide range of sectors, including software development, hardware manufacturing,
         and IT services. It drives innovation through advancements in artificial intelligence, cloud computing, and
         cybersecurity. Key players include startups and established companies, all competing to enhance connectivity,
@@ -29,7 +32,7 @@
         </li>
     </ol>
 
-    <img src ="images/images.jpeg" alt ="images">
+    <img src="images/images.jpeg" alt="images">
     <div class="services">
         <h3>Cyber Security</h3>
         <p>Cloud Computing</p>
@@ -54,7 +57,35 @@
         </ul>
 
     </div>
-    <footer> <span>© ivy</span></footer>
+    <form action="process.php" method="POST">
+
+        <div> <label>Name</label>
+            <input type="text" name="firstName">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="text" name="Email Address">
+        </div>
+
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+            </select>
+
+        </div>
+
+    </form>
+    <footer> <span>© wonderlust travel agency</span></footer>
 
 </body>
 
