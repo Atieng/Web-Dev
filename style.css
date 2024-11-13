@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif
+
+    /* https://99designs.com/profiles/malzdesign/designs/1152694        https://99designs.com/profiles/anasmallakh/designs/2056687 https://99designs.com/profiles/1362796/designs/1997551  https://99designs.com/profiles/Hiroshy/designs/2235365 */
+}
+body{
+    background-color: rgb(1, 15, 36);
+}
+header{
+    display: flex;              /* Enables Flexbox for horizontal layout */
+    align-items: center;        /* Vertically centers items within the header */
+    justify-content: space-between; /* Spreads items out across the header */
+    padding: 0 20px;            /* Optional: Adds padding inside the header */
+    background-color: #f8f9fa;
+}
+
+.right-links .links {
+    display: flex;
+        
+    align-items: flex-end;   
+    color: rgb(138, 7, 143);
+    padding:0;
+    margin: 0;
+    gap: 20px;
+    justify-content:space-between;
+    
+
+}
+/* .right-links .links {
+    list-style-type: none;
+    text-align: left;
+    color: black;
+    justify-content:left;
+    flex-direction: column;
+    align-content: center;
+    ali
+     
+
+} */
